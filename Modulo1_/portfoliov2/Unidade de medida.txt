@@ -1,0 +1,5 @@
+Alterar a unidade de medida (px) por (rem)
+
+(Rem) se adapta a configuração do navegador da pessoal
+
+Ex: Caso a pessoa use as fontes do navegador em tamanho grande, ele ira adaptar com base nisso.

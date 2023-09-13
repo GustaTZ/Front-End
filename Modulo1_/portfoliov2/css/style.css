@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor--primaria: #222831;
+    --cor--secundaria: #DDDDDD;
+    --cor--terciaria: #F05454;
+    --cor--hover: #30475E;
+    --font--primaria: 'Krona One', sans-serif;
+    --font--secundaria: 'Montserrat', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+
+    background-color: var(--cor--primaria);
+    color: var(--cor--secundaria);
+}
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__link{
+    font-family: var(--font--secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor--terciaria);
+    text-decoration: none;
+}
+
+.titulo__strong{
+    color: var(--cor--terciaria);
+}
+
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titulo{
+    font-family: var(--font--primaria);
+    font-size: 36px;
+}
+
+.titulo__paragrafo{
+    font-family: var(--font--secundaria);
+    font-size: 24px;
+}
+
+.links{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.links__button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor--terciaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--font--secundaria);
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor--secundaria);
+}
+
+.links__button:hover{
+    padding: 3%;
+    background-color: var(--cor--hover);
+}
+
+.perfil{
+    width: 500px;
+    height: 500px;
+    border-radius: 40%;
+}
+.tamanho__icon{
+    width: 32px;
+}
+
+.subtitulo__links{
+    font-family: var(--font--primaria);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.nome__color:hover{
+    font-family: var(--font--secundaria);
+    font-size: 24.5px;
+    color: var(--cor--terciaria);
+}
+
+.linguagens__color:hover{
+    color: #707070;
+    font-family: var(--font--secundaria);
+    font-size: 24.5px;
+}
+
+.footer{
+    color: var(--cor--primaria);
+    background-color: var(--cor--terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--font--secundaria);
+    font-size: 24px;
+    font-weight: 400;
+}
